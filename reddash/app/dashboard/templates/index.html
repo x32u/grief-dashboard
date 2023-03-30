@@ -11,22 +11,19 @@
 
   <div class="col-12">
     <div class="card card-chart">
-      <div class="card-header ">
-        <div class="row">
-          <div class="col-sm-12 text-left">
-            <h5 class="card-category">{{ _('{botname} • Owned by {owner}').format(botname=botname, owner=owner) }}</h5>
-            <h2 class="card-title">{{ _('About') }}</h2>
-          </div>
-        </div>
-      </div>
       <div class="card-body">
         <div class="row">
           <div class="col-lg-3">
+            <br />
             <img src="{{ botavatar }}"
-              style="height: 200px; width: 200px; border-radius: 50%; margin: auto; display: block;">
+              style="height: 200px; width: 200px; border-radius: 50%; margin: auto; display: block;"
+            >
+            <br />
           </div>
           <div class="col-lg-8">
-            <h4>{{ botinfo|safe }}</h4>
+            <h4>{{ botname }}</h4>
+            <br />
+            <h4> Melon is a bot designed to keep your server safe and engage your members. It has auto-mod capabilities that filter outs certain types of behavior when your staff team is not available. Melon has it's own custom giveaways system, donation logging system, leveling system, custom commands system, engaging-fun-commands, informative-commands, utility commands and more! </h4>
             <br />
             {% if redirect %}
             <a href="{{ invite }}" target="_blank">Invite</a>
