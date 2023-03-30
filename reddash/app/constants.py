@@ -14,11 +14,11 @@ class Lock:
 
 
 DEFAULTS = {
-    "botname": "Red Discord Bot",
+    "botname": "MELON",
     "botavatar": "https://cdn.discordapp.com/icons/133049272517001216/a_aab012f3206eb514cac0432182e9e9ec.gif?size=1024",
-    "botinfo": "Hello, welcome to the Red Discord Bot dashboard!  Here you can see basic information, commands list and even interact with your bot!  Unfortunately, this dashboard is not connected to any bot currently, so none of these features are available.  If you are the owner of the bot, please load the dashboard cog from Toxic Cogs.",
-    "owner": "Cog Creators",
-    "color": "red",
+    "botinfo": "Melon is a bot designed to keep your server safe and engage your members. It has auto-mod capabilities that filter outs certain types of behavior when your staff team is not available. Melon has it's own custom giveaways system, donation logging system, leveling system, custom commands system, engaging-fun-commands, informative-commands, utility commands and more!",
+    "owner": "inthedark.org#0666",
+    "color": "yellow",
 }
 
 WS_URL = "ws://localhost:"
@@ -49,7 +49,6 @@ ALLOWED_LOCALES = [
     "ja_JP",
     "ko_KR",
     "nl_NL",
-    "no_NO",
     "pl_PL",
     "pt_BR",
     "pt_PT",
