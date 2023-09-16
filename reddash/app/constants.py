@@ -14,11 +14,11 @@ class Lock:
 
 
 DEFAULTS = {
-    "botname": "MELON",
-    "botavatar": "https://cdn.discordapp.com/icons/133049272517001216/a_aab012f3206eb514cac0432182e9e9ec.gif?size=1024",
-    "botinfo": "Melon is a bot designed to keep your server safe and engage your members. It has auto-mod capabilities that filter outs certain types of behavior when your staff team is not available. Melon has it's own custom giveaways system, donation logging system, leveling system, custom commands system, engaging-fun-commands, informative-commands, utility commands and more!",
-    "owner": "inthedark.org#0666",
-    "color": "yellow",
+    "botname": "grief",
+    "botavatar": "https://media.discordapp.net/attachments/1122755023533768784/1152690416517386282/grief.png?width=204&height=204",
+    "botinfo": "grief is one of the most advanced bots on Discord. with over 500 commands and over 20 message-based events, grief is a bot that enhances the Discord experience like no other. whether it's integration with other services and platforms or its advanced moderation commands, servers that use grief are the best servers on Discord.",
+    "owner": "",
+    "color": "purple",
 }
 
 WS_URL = "ws://localhost:"
