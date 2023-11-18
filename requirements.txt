@@ -1,4 +1,4 @@
-flask==2.2.2
+flask==2.2.0
 itsdangerous==2.0.1
 requests==2.23.0
 cryptography==3.3.2
@@ -9,4 +9,4 @@ fuzzywuzzy==0.18.0
 flask-babel==1.0.0
 pyjwt==1.7.1
 appdirs==1.4.4
-Werkzeug>=2.2.0
+Werkzeug==2.2.2
